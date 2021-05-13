@@ -1,0 +1,31 @@
+https://www.youtube.com/watch?v=8jbx8O3wuLg
+
+ECS
+	Amazon Elastic Container Service (Amazon ECS) is a fully managed container orchestration service.
+	
+	Fargate
+		For exclude EC2. With Fargate, you no longer have to provision, configure, or scale clusters of virtual machines to run containers
+		
+	Diagram of ECS objects 	
+		Container definition
+		Task definition
+		Service
+		Cluster
+		
+		
+		Getting Started with Amazon ECS on AWS Fargate (Docker container)
+https://docs.aws.amazon.com/AmazonECS/latest/userguide/fargate-getting-started.html		
+or pdf
+https://docs.aws.amazon.com/AmazonECS/latest/userguide/ecs-ug.pdf#fargate-getting-started
+to view in that case http://18.222.21.154/
+
+
+Deploy image to AWS ECS Fargate
+
+push docker image to aws ecr
+	docker tag 35766fad2ea6 aws_account_id.dkr.ecr.region.amazonaws.com
+	
+	docker push aws_account_id.dkr.ecr.region.amazonaws.com
+	
+	I got error: denied: requested access to the resource is denied
+	

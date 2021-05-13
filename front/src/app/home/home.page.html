@@ -1,0 +1,80 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="secondary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title style="text-align: center;">
+      {{title}}
+    </ion-title>
+
+    <ion-buttons *ngIf="true" slot="end">
+      <ion-fab-button (click)="login()" color="light" size="small">Login</ion-fab-button>
+     
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  
+
+  <ion-list>
+    <ion-item>
+      <ion-button color="light" class="center-button" (click)="about()">About</ion-button>
+    </ion-item>
+    <ion-item class="ion-text-center">
+      <ion-button color="light" class="center-button" (click)="lastprojects()">Last Projects</ion-button>
+    </ion-item>
+    
+    <ion-item>
+      <ion-button color="light" class="center-button" (click)="multitied()">Multitied Management Systems</ion-button>
+    </ion-item>
+    
+    <ion-item>
+      <ion-button color="light" class="center-button" (click)="another()">Another Experience</ion-button>
+    </ion-item>
+
+    
+  </ion-list>
+
+  
+</ion-content>
+<!--
+<img src="..//assets//images//Cloud Local Linked Servers.png" alt="Cloud Local Linked Server">
+
+
+<p><strong>Work experience</strong></p>
+<h3><strong>2015 august &ndash; Current</strong></h3>
+<h2>FullStack developer, &nbsp;emt ltd</h2>
+<h2>Projects:</h2>
+<ol>
+<li>Management Intrusion Detection Systems.</li>
+<li>Management Bluetooth Device Placement.</li>
+<li>Management Parking Areas Local Station.</li>
+<li>Cloud Management Parking Areas Local Station.</li>
+</ol>
+<p>&nbsp;</p>
+<p>Projects Basics:</p>
+<p>Backend: node js(nestjs microservices), MongoDB</p>
+<p>Frontend: Angular/Ionic for desktop/mobile browser, android&nbsp; app</p>
+<p>Devices interface: C++, CS, JAVA</p>
+<p>Physical devices: intrusion controllers, bluetooth&nbsp; devices, android devices, LPR cameras, others controllers types</p>
+<p>&nbsp;</p>
+<p><strong>Education</strong></p>
+<p>MS, Bauman&nbsp;Moscow&nbsp;State&nbsp;Technical University</p>
+<p><strong>Skills</strong></p>
+<p><strong>Languages</strong></p>
+<p>&nbsp; Hebrew,&nbsp; English,&nbsp; Russian</p>
+<h5>Computer Skills</h5>
+<p>Javascript, Typescript, Angular, Nodejs, Java, C++, CS,&nbsp; MSSQL, MySQL, MongoDB</p>
+<p>AWS, GCP, Heroku,</p>
+<p>Windows, IOS, Linux, Android,&nbsp;</p>
+<p>Git, Docker</p>
+<p>&nbsp;</p>
+<p><strong>Strengths</strong></p>
+<p>Communication,&nbsp;</p>
+<p>Confident</p>
+<p>Critical thinking,</p>
+<p>Persistent,&nbsp;</p>
+<p>Teamwork</p>
+</ion-content>
+-->

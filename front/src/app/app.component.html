@@ -1,0 +1,107 @@
+<ion-app>
+  <ion-menu side="start" menuId="first" content-id="content1">
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Navigate</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+
+  <!--    
+
+      <ion-list *ngFor="let pages of navigate">
+        <ion-menu-toggle auto-hide="true">
+          <ion-item  [routerLink]="pages.url" routerDirection="forward">
+              <ion-icon [name]="pages.icon" slot="start"></ion-icon>
+                {{pages.title}} 
+          </ion-item>
+        </ion-menu-toggle>
+      </ion-list>
+-->
+
+      <ion-list>
+        <ion-menu-toggle auto-hide="true">
+          <ion-item  [routerLink]="'/home'" routerDirection="forward">
+              <ion-icon [name]="home" slot="start"></ion-icon>
+                Home
+          </ion-item>
+        </ion-menu-toggle>
+
+        <ion-menu-toggle auto-hide="true">
+          <ion-item  [routerLink]="'/about'" routerDirection="forward">
+              <ion-icon [name]="about" slot="start"></ion-icon>
+               About
+          </ion-item>
+        </ion-menu-toggle>
+
+        <ion-menu-toggle auto-hide="true">
+          <ion-item  [routerLink]="'/lastprojects'" routerDirection="forward">
+              <ion-icon [name]="lastprojects" slot="start"></ion-icon>
+              <ion-icon name="caret-down-outline" slot="end"></ion-icon>
+              Last Projects
+          </ion-item>
+        </ion-menu-toggle>
+
+        <ion-menu-toggle auto-hide="true">
+          <ion-list lines="none">
+            <ion-item  [routerLink]="'/intrusion'" routerDirection="forward" class="submenu">
+              <ion-icon [name]="intrusion" slot="start"></ion-icon>
+              Intrusion Detection Systems
+            </ion-item>
+          </ion-list>
+        </ion-menu-toggle>
+        <ion-menu-toggle auto-hide="true">
+          <ion-list lines="none">
+            <ion-item  [routerLink]="'/bluetooth'" routerDirection="forward" class="submenu">
+              <ion-icon [name]="bluetooth" slot="start"></ion-icon>
+              Bluetooth Device Placement
+            </ion-item>
+          </ion-list>
+        </ion-menu-toggle>
+        <ion-menu-toggle auto-hide="true">
+          <ion-list lines="none">
+            <ion-item  [routerLink]="'/parkinglocal'" routerDirection="forward" class="submenu">
+              <ion-icon [name]="parkinglocal" slot="start"></ion-icon>
+              Parking Areas Local Station
+            </ion-item>
+          </ion-list>
+        </ion-menu-toggle>
+        <ion-menu-toggle auto-hide="true">
+          <ion-list lines="none">
+            <ion-item  [routerLink]="'/cloudapi'" routerDirection="forward" class="submenu">
+              <ion-icon [name]="cloudapi" slot="start"></ion-icon>
+              Cloud API Parking Areas Local Stations.
+            </ion-item>
+          </ion-list>
+        </ion-menu-toggle>
+        <!--
+        <ion-menu-toggle auto-hide="true">
+          <ion-list lines="none">
+            <ion-item  [routerLink]="'/parkingcloud'" routerDirection="forward" class="submenu">
+              <ion-icon [name]="parkingcloud" slot="start"></ion-icon>
+              Cloud Management Parking Areas
+            </ion-item>
+          </ion-list>
+        </ion-menu-toggle>
+-->
+
+        <ion-menu-toggle auto-hide="true">
+          <ion-item  [routerLink]="'/multitied'" routerDirection="forward">
+              <ion-icon [name]="multitied" slot="start"></ion-icon>
+              Multitied Management Systems
+          </ion-item>
+        </ion-menu-toggle>
+
+        <ion-menu-toggle auto-hide="true">
+          <ion-item  [routerLink]="'/another'" routerDirection="forward">
+              <ion-icon [name]="another" slot="start"></ion-icon>
+              Another Expierence
+          </ion-item>
+        </ion-menu-toggle>
+        
+      </ion-list>
+
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet id="content1"></ion-router-outlet>
+</ion-app>

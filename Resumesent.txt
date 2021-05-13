@@ -1,0 +1,42 @@
+
+20.04
+
+R&D Team Leader לחברת סטרטאפ בתחום הFin-Tech
+תאריך עדכון: 20/04/2021
+GotFriends- בלעדי לג'ובנט -
+פרטי התקשרותלהגשת מועמדות - לחץ כאן
+איש קשר: משאבי אנוש
+תיאור:אנחנו מפעילים את רשת התשלומים המקוונים הגדולה מסוגה בעולם, שתומכת ב65 סוגי מטבעות ביותר מ170 מדינות!
+נשמח לצרף לעשייה שלנו ראש/ת צוות לניהול של 3-5 מפתחים, פיתוח בReact וNodeJS, התפקיד בכפיפות למנהל הקבוצה וכולל כ50% Hands On.
+פיתחנו פלטפורמת תשלומים בינלאומית עבור עסקים וצרכנים שמאפשרת לבצע העברות בנקאיות, העברות לארנקים דיגיטליים, תשלום מזומן ועוד. אנחנו מונים 230 עובדים גלובלית, בארץ 120, החברה גייסה 400 מיליון דולר לפי שווי של 2.5 מיליארד דולר.
+נשמח להכיר אותך!דרישות:- 3 שנות נסיון בפיתוח בReact/Redux
+- נסיון של שנה בפיתוח בNodeJS
+- נסיון ניהולי של שנתייםמיקום המשרה:מרכז, שרוןסוג משרה:משרה מלאהקוד משרה:127919
+המלץ לחבר
+
+Full Stack Tech Lead
+תאריך עדכון: 20/04/2021
+ארטונט ישראל בע"מ- בלעדי לג'ובנט -
+פרטי התקשרותלהגשת מועמדות - לחץ כאן
+איש קשר: משאבי אנוש
+תיאור:
+A hands-on tech lead (80%) to lead a squad of developers.
+An extensive collaboration with Product and Marketing to deliver high-quality content from
+concept phase to production in a high pace environment.
+Take part in the architecture, design, development, and delivery of complex features in a
+distributed and dynamic development environment.
+Technically manage, mentor, review and improve the quality of the code and process.
+Write Javascript/Typescript for Node.js web services and React Web apps.
+Write well designed, testable, efficient code that complies to specifications.
+דרישות:
+A leader, able to earn the respect & trust of other engineers as a strong technical leader
+and mentor
+Experience in leading significant development efforts and deliver high quality
+4+ years of proven hands-on Software Development
+Experience in NodeJs and Javascript/Typescript Development
+Experience in developing web applications using React
+Bachelor’s or Master's degree in Computer Science or a related technical field
+Extensive experience with full-stack development, distributed systems, and relational
+databases (MySQL or other)
+Object-oriented analysis and design using common design patterns
+Experience in AWS or another cloud environment

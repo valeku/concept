@@ -1,0 +1,76 @@
+<ion-content style="height: 1000px">
+  <ion-fab-button (click) = "gohome()" color="light" size="small">
+    <ion-icon name="home"></ion-icon>
+  </ion-fab-button>
+      <ion-card class="center-nobox" >
+        <ion-card-header >
+            <ion-card-title class="ion-text-center" >Login</ion-card-title>
+        </ion-card-header>
+ 
+        <ion-card-content>
+
+          <ion-item class="input" lines="none">
+            <ion-label position="floating">Email</ion-label>
+            <ion-input type="email"  [(ngModel)]="credentials.email"></ion-input>
+          </ion-item>
+ 
+          <ion-item class="input" lines="none">
+            <ion-label position="floating">Password</ion-label>
+            <ion-input type="password" [(ngModel)]="credentials.password"></ion-input>
+          </ion-item>
+
+          
+          <ion-button (click)="login()" expand="block">Login</ion-button>
+
+          <ion-button (click)="cancel()" expand="block">Cancel</ion-button>
+          
+          <ion-grid class="col-link">
+            <ion-row>
+              <ion-col>
+                <a  (click)="register()">Register</a>
+              </ion-col>
+            </ion-row>
+
+            <ion-row>  
+              <ion-col>
+                <a  (click)="restore()">Restore Password</a>
+              </ion-col>
+            </ion-row>
+
+            <ion-row>  
+              <ion-col>
+                <p>Or log in via social network</p>
+              </ion-col>
+            </ion-row>
+
+            <ion-row>
+              <ion-col>
+                <ion-fab-button  (click)="googleSignIn()"  color="light" size="small">
+                  <ion-icon name="logo-google"></ion-icon>
+                </ion-fab-button>
+              </ion-col>
+
+              <ion-col>
+                <ion-fab-button color="light" size="small">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </ion-fab-button>
+              </ion-col>
+
+              <ion-col>
+                <ion-fab-button color="light" size="small">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </ion-fab-button>
+              </ion-col>
+
+              <ion-col>
+                <ion-fab-button color="light" size="small">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </ion-fab-button>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+
+        </ion-card-content>
+      </ion-card>
+    
+</ion-content>
